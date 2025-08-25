@@ -160,7 +160,7 @@
           <div class="modal-content rounded-4 shadow">
             <div class="modal-header p-5 pb-4 border-bottom-0">
               {% if url_arquivo %}
-                <iframe class="iframe ratio ratio-16x9" src="{{ url_arquivo }}" frameborder="0"></iframe>
+                <iframe class="iframe ratio ratio-16x9" src="{% static 'img/livro.png' %}" frameborder="0"></iframe>
               {% else %}
                 <h3 class="titulo">Nenhum arquivo enviado</h3>
               {% endif %}
